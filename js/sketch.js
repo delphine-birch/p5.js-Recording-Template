@@ -6,6 +6,7 @@ var height = 800;
 //Recording variables
 var filename = "p5recording"
 var recordedFrames = 0;
+//Desired length of recording in seconds
 var length = 1;
 var frameRate = 30;
 var recording = false;
