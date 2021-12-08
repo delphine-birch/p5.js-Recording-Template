@@ -1,0 +1,39 @@
+#canvas-holder {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vh;
+}
+
+#canvas-text {
+  display: flex;
+  margin: auto;
+  font-family: "Lucida Console";
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 68vh;
+  min-width: 820px;
+  margin-top: 10vh;
+  font-size: 40px;
+}
+
+#canvas {
+  position: relative;
+  margin: auto;
+  margin-top: 1vh;
+  display: flex;
+  background-color: hsl(30, 5%, 35%);
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 70vh;
+  height: 70vh;
+  min-width: 820px;
+  min-height: 820px;
+}
+
+body {
+  background-image: url("../assets/bg.png");
+
+}
